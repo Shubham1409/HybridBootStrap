@@ -1,3 +1,11 @@
+.page-header h1{
+  font-family: 'Bungee Inline', cursive;
+}
+
+.jumbotron h1{
+  font-family: 'Wendy One', sans-serif;
+}
+
 #myCarousel{
   margin-top: 300px;
   width: auto;
