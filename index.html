@@ -5,7 +5,7 @@
 	<head>
 
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
+		<title>Good Food Coorporation</title>
 		<meta name="description" content="">
 
 		<!-- Mobile viewport optimized -->
@@ -17,6 +17,7 @@
 
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
+		<link rel="icon" href="includes/images/f.jpg"
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
@@ -24,7 +25,7 @@
 	</head>
 	<body>
 
-			<!-- Start of container-->
+		<!-- Start of container-->
 		<div class="container" id="main">
 			<!-- Heading and Navigation bar -->
 			<div class="navbar navbar-fixed-top">
@@ -55,11 +56,50 @@
 							<!-- Glyphicon fo designs -->
 							<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 							<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							<li><a href="#myModal" class="btn btn-warning" role="button" data-toggle="modal">Your Views</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">x</button>
+							<h4 class="modal-title">Send your Interest to us.</h4>
+						</div>
+						<div class="modal-body">
+							<p>
+								<small class="text-muted">Submit your Views.</small>
+							</p>
+							<hr>
+							<form class="form-horizontal" action="index.html" method="post">
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputName">Name</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputName" placeholder="Name" value="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+									<div class="col-lg-10">
+										<input type="email" class="form-control" id="inputEmail" placeholder="Email" value="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputMobile">Mobile</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputMobile" placeholder="Mobile" value="">
+										<button type="submit" class="btn btn-success pull-right">Send!</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- container end here -->
 
 			<!-- Carusel starting -->
 			<div class="carousel slide" id="myCarousel">
@@ -92,7 +132,7 @@
 					</div>
 					<!-- End of slides to hold the images-->
 				</div>
-        <!-- Creating arrow for mannual sliding-->
+				<!-- Creating arrow for mannual sliding-->
 				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
 				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
@@ -111,12 +151,17 @@
 						</div>
 					</div>
 				</div>
+				<!-- Using Jumbotron-->
+				<div class="jumbotron">
+					<h1>Hey.. You just missed our COFFEE</h1>
+					<p>Just check the option to select from our coffee options.</p>
+				</div>
 
-					<!-- Using Google Maps-->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.10089266528!2d77.65357191491104!3d12.836756490944442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c80501fd5bb%3A0x7e1283544d01405c!2sWipro+EC4%2C+Tower+12!5e0!3m2!1sen!2sin!4v1476677539857"
-					width="1170" height="450" frameborder="0" style="border:0" allowfullscreen ></iframe>
+				<!-- Using Google Maps-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.10089266528!2d77.65357191491104!3d12.836756490944442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c80501fd5bb%3A0x7e1283544d01405c!2sWipro+EC4%2C+Tower+12!5e0!3m2!1sen!2sin!4v1476677539857"
+				width="1170" height="450" frameborder="0" style="border:0" allowfullscreen ></iframe>
 			</div>
-				<!-- End of container-->
+			<!-- End of container-->
 
 			<footer>
 				<!-- Start of container for footer-->
