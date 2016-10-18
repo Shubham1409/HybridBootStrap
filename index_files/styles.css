@@ -1,0 +1,89 @@
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}/*
+
+My Custom CSS
+=============
+
+Author:  Harsh Singhal
+Updated: October 2016
+Notes:	 Hand coded for Stack Route
+*/
+#primg{
+width:419px;
+height:auto;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.navbar-fixed-top h2{
+  text-align: center
+}
+
+#primg{
+  margin-top: 160px;
+
+}
+#desc{
+  margin-top: 160px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .footer {
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       height: 60px;
+       background-color: #f5f5f5;
+   }
+#inputMobile{
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #primg{
+  width:80%;
+  height:auto;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #primg{
+  width:419px;
+  height:auto;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
